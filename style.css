@@ -1,0 +1,31 @@
+header{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+
+    font-size: x-large;
+
+    ol#site-nav{
+        display: flex;
+        list-style: none;
+
+        li{
+            margin-left: 8px;
+
+            a{
+                text-decoration: none;
+                font-size: large;
+                color: #4E8ED3;
+            }
+        }
+    }
+}
+
+
+@media (prefers-color-scheme:dark){
+    html{
+        background-color: #121314;
+        color: aliceblue;
+    }
+
+}
